@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite junit="false" name="SelNG Test" parallel="false" skipfailedinvocationCounts="false" thread-count="0">
+
+ <test annotations="JDK" junit="false" name="FEAutomation" verbose="5">
+    <groups>
+      <run>
+        <include name="abstract"/>
+        <include name="regression"/>
+        <include name="smoke"/>
+        <exclude name="grid"/>     
+      </run>
+    </groups>
+    <classes>
+      <class name="com.demo.test.SelNG.FEAutomation.tests.FirefoxTest"/>
+       
+    </classes>
+
+  </test>
+
+</suite>
