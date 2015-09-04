@@ -1,11 +1,9 @@
 package com.demo.test.SelNG.FEAutomation.tests;
 
-import java.sql.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-import com.demo.test.*;
 import com.demo.test.SelNG.FEAutomation.library.CommonLibrary;
 
 public class FirefoxTest {

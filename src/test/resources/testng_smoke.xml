@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <suite junit="false" name="SelNG Test" parallel="false" skipfailedinvocationCounts="false" thread-count="0">
-    
-<!--  	<listeners>
-       	<listener class-name="com.yahoo.test.SelNG.framework.util.MethodSorter"/>
-  		<listener class-name="com.yahoo.test.SelNG.framework.util.SelNGEmailReporter"/>
-  		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
-        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-  		<listener class-name="com.yahoo.test.SelNG.framework.util.TMReporter"/>
-  		<listener class-name="com.yahoo.test.SelNG.framework.util.Customreport"/>
-    </listeners> -->
-    
-  <test annotations="JDK" junit="false" name="FEAutomation" verbose="5">
+
+ <test annotations="JDK" junit="false" name="FEAutomation" verbose="5">
     <groups>
       <run>
+     	 <include name="firefox"/>
         <include name="abstract"/>
         <include name="regression"/>
-        <include name="smoke"/>
-        <exclude name="grid"/>  
+        <include name="smoke"/>  
+        <exclude name="grid"/>     
       </run>
     </groups>
-	<classes>
+    <classes>
       <class name="com.demo.test.SelNG.FEAutomation.tests.FirefoxTest"/>
+       
     </classes>
 
   </test>

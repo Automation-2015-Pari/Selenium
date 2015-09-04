@@ -34,11 +34,9 @@
 			<version>2.44.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>5.8</version>
-			<classifier>jdk15</classifier>
-			<scope>test</scope>
+				<groupId>org.testng</groupId>
+				<artifactId>testng</artifactId>
+				<version>6.9.6</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
